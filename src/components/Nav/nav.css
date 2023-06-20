@@ -1,0 +1,145 @@
+@import url(../../index.css);
+.highlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--grayNavy) !important;
+  border-bottom: 1px solid white;
+  color: white;
+}
+nav {
+  width: 100% !important;
+  margin: 0% !important;
+}
+
+.navbar:hover {
+  background-color: var(--grayNavy) !important;
+}
+nav a:hover {
+  color: var(--babyBlue) !important;
+}
+
+.megamenu {
+  height: fit-content !important;
+  color: white !important;
+  width: 100% !important;
+  margin-top: 10px !important;
+  border-radius: 0px !important;
+  background-color: var(--grayNavy) !important;
+  margin: 0% !important;
+  width: 100% !important;
+}
+.megamenu:active body{
+  overflow-y: hidden !important;
+}
+
+
+#root
+  > nav
+  > div
+  > div.collapse.show.navbar-collapse
+  > ul
+  > div.d-md-none
+  > li
+  > div
+  > ul {
+  transform: translate3d(0px, 53px, 0px) !important;
+  margin: 0px !important;
+
+  overflow-y: hidden !important;
+  inset: -4px !important;
+  width: 110% !important;
+}
+
+.megamenu img {
+  border-radius: 10px;
+  height: 150px !important;
+}
+
+@media (max-width: 768px) {
+  .megamenu,
+  .products {
+    height: 80vh !important;
+    overflow-y: scroll !important;
+    overscroll-behavior-y: contain !important;
+  }
+  .megamenu img {
+    height: 100% !important;
+  }
+}
+
+.text-uppercase {
+  font-size: 1.4rem;
+  margin: 1rem auto 2rem auto;
+}
+
+.megamenu p,
+a {
+  color: white;
+}
+.megamenu h5 {
+  color: var(--babyBlue);
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#root > nav > div > div > ul > li.nav-item.position-static > div > ul {
+  width: 100vw !important;
+  border: none;
+  height: fit-content;
+}
+
+.nav-link {
+  padding: 1rem !important;
+  color: white !important;
+  font-weight: 600;
+  opacity: 100% !important;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+
+.nav-list {
+  margin: 20px auto;
+}
+
+.nav-list a {
+  text-decoration: none;
+  background-color: transparent !important;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .edge-profiles img,
+  .stones img,
+  .know-more img {
+    width: 250px;
+    height: 160px;
+  }
+}
+.edge-profiles img,
+.stones img {
+  height: 150px;
+}
+
+.projects img {
+  width: 100%;
+  max-height: 200px;
+}
+
+/* .edge-profiles, .stones,.know-more{
+  width: 70% !important;
+} */

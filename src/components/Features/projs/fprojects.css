@@ -1,0 +1,40 @@
+.swiper {
+  width: 100%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  height: fit-content !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD Styling */
+.proj-card {
+  border: none !important;
+  box-shadow: none !important;
+  height: 450px;
+  background: transparent !important;
+  color: white !important;
+}
+.proj-card img {
+  width: 100%;
+  height: 300px;
+}
+.proj-card p {
+  color: white !important;
+}
+
+.mySwiper {
+  padding: 20px 0px !important;
+}
+.swiper-slide {
+  border-radius: 20px !important;
+}
