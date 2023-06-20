@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/luxor/static/css/main.832814b1.css",
+    "main.js": "/luxor/static/js/main.62132992.js",
+    "static/js/787.bbbc8190.chunk.js": "/luxor/static/js/787.bbbc8190.chunk.js",
+    "static/media/Logo.png": "/luxor/static/media/Logo.0c3280f11184cc7a8eba.png",
+    "static/media/granite-features.png": "/luxor/static/media/granite-features.206b9e4a053bcd9e62f0.png",
+    "static/media/sustainability.webp": "/luxor/static/media/sustainability.51308a5211072833dea0.webp",
+    "static/media/egde-profile3.webp": "/luxor/static/media/egde-profile3.7cf6b464b4c47e2df4e1.webp",
+    "static/media/IMG2.jpeg": "/luxor/static/media/IMG2.bb950cf6fa99e6b97d3c.jpeg",
+    "static/media/quartz-features.jpg": "/luxor/static/media/quartz-features.8c09a3a25820317c4c23.jpg",
+    "static/media/quartzite-features.jpeg": "/luxor/static/media/quartzite-features.ea624cf0e71a5837e0af.jpeg",
+    "static/media/egde-profile2.webp": "/luxor/static/media/egde-profile2.505e012a78fcf1a4cb4e.webp",
+    "static/media/sinks-faucets.jpeg": "/luxor/static/media/sinks-faucets.d23400e0dfaae6190bca.jpeg",
+    "static/media/FAQs.jpeg": "/luxor/static/media/FAQs.dc0de0e8bd12f0becc32.jpeg",
+    "static/media/HelveticaNowText-Regular.otf": "/luxor/static/media/HelveticaNowText-Regular.3561cdb01d0cfb3cf0f9.otf",
+    "static/media/kitchen-sq-gr.jpeg": "/luxor/static/media/kitchen-sq-gr.b9f622286ee25f2980b2.jpeg",
+    "static/media/IMG4.jpeg": "/luxor/static/media/IMG4.846836940e707dd1ce9f.jpeg",
+    "static/media/project3.jpeg": "/luxor/static/media/project3.0d6fab2edc6843433ca3.jpeg",
+    "static/media/marble-features.jpeg": "/luxor/static/media/marble-features.d889fcf52e3edbaee9ae.jpeg",
+    "static/media/kitchen-sq-gr2.jpeg": "/luxor/static/media/kitchen-sq-gr2.3f3b36ea29ae4a6ecee5.jpeg",
+    "static/media/IMG3.webp": "/luxor/static/media/IMG3.289a4f8271c29e660eaa.webp",
+    "static/media/process.webp": "/luxor/static/media/process.97911d20884dd34e526e.webp",
+    "static/media/work.jpeg": "/luxor/static/media/work.aee90a4d1d591de543dd.jpeg",
+    "static/media/who.jpeg": "/luxor/static/media/who.c55742776755a8131101.jpeg",
+    "static/media/fixtures-features.jpeg": "/luxor/static/media/fixtures-features.d5b8957bcf31167ee8bf.jpeg",
+    "static/media/egde-profile.jpeg": "/luxor/static/media/egde-profile.ee16bfc5d833a45276d7.jpeg",
+    "index.html": "/luxor/index.html",
+    "main.832814b1.css.map": "/luxor/static/css/main.832814b1.css.map",
+    "main.62132992.js.map": "/luxor/static/js/main.62132992.js.map",
+    "787.bbbc8190.chunk.js.map": "/luxor/static/js/787.bbbc8190.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.832814b1.css",
+    "static/js/main.62132992.js"
+  ]
+}
