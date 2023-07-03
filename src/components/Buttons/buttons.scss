@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+@import "../../index.css";
 
 //colors
-$babyblue: rgb(117, 125, 155);
+// $babyblue: rgb(117, 125, 155);
 $white: #fff;
+$babyBlue: #55b0e8;
+
 
 
 .buttons {
@@ -39,6 +42,8 @@ $white: #fff;
     position: relative;
     text-decoration: none;
     width: 100%;
+    z-index: 1000 !important;
+
 
     @media (min-width: 600px) {
       margin: 0 1em 2em;
@@ -56,7 +61,8 @@ $white: #fff;
 //   Button ONE
 
 .btn-1 {
-    background: darken($babyblue, 1.5%);
+    // background: darken($babyblue, 1.5%);
+
     font-weight: 300;
     
     svg {
@@ -97,6 +103,7 @@ $white: #fff;
 
   .btn-2 {
     letter-spacing: 0;
+
   }
 
   .btn-2:hover,

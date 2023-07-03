@@ -8,9 +8,9 @@ export default function Highlight() {
         <a className="title" href="">Faussets</a> */}
         <span>Enjoy our Summer Discount!</span>
       </div>
-      <div className="highlight-main-logo">
+      {/* <div className="highlight-main-logo">
           LOGO
-      </div>
+      </div> */}
       {/* <div className="highlight">
        
         <button className="button-6 px-3 ">click here!</button>

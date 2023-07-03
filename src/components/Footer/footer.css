@@ -2,6 +2,8 @@
   position: fixed;
   bottom: 1rem;
   right: 3rem;
+  z-index: 1000 !important;
+
 }
 
 @media (min-width:768px) {
@@ -10,7 +12,8 @@
     right: -4.8rem;
     margin: 0;
     padding: 0 !important;
-    transform: rotate(-90deg)
+    transform: rotate(-90deg);
+   
 
 
   }

@@ -1,5 +1,5 @@
 import React from "react";
-import "../Buttons/buttons.css";
+// import "../Buttons/buttons.css";
 import "./footer.css";
 import { MDBRow, MDBCol } from "mdb-react-ui-kit";
 import {
