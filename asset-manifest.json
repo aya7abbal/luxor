@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/luxor/static/css/main.832814b1.css",
-    "main.js": "/luxor/static/js/main.62132992.js",
+    "main.css": "/luxor/static/css/main.d5baba65.css",
+    "main.js": "/luxor/static/js/main.83327cdd.js",
     "static/js/787.bbbc8190.chunk.js": "/luxor/static/js/787.bbbc8190.chunk.js",
+    "static/media/Logo-light.png": "/luxor/static/media/Logo-light.64808c53e4db08f000bc.png",
     "static/media/Logo.png": "/luxor/static/media/Logo.0c3280f11184cc7a8eba.png",
     "static/media/granite-features.png": "/luxor/static/media/granite-features.206b9e4a053bcd9e62f0.png",
     "static/media/sustainability.webp": "/luxor/static/media/sustainability.51308a5211072833dea0.webp",
@@ -26,12 +27,12 @@
     "static/media/fixtures-features.jpeg": "/luxor/static/media/fixtures-features.d5b8957bcf31167ee8bf.jpeg",
     "static/media/egde-profile.jpeg": "/luxor/static/media/egde-profile.ee16bfc5d833a45276d7.jpeg",
     "index.html": "/luxor/index.html",
-    "main.832814b1.css.map": "/luxor/static/css/main.832814b1.css.map",
-    "main.62132992.js.map": "/luxor/static/js/main.62132992.js.map",
+    "main.d5baba65.css.map": "/luxor/static/css/main.d5baba65.css.map",
+    "main.83327cdd.js.map": "/luxor/static/js/main.83327cdd.js.map",
     "787.bbbc8190.chunk.js.map": "/luxor/static/js/787.bbbc8190.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.832814b1.css",
-    "static/js/main.62132992.js"
+    "static/css/main.d5baba65.css",
+    "static/js/main.83327cdd.js"
   ]
 }
