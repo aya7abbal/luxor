@@ -3,8 +3,6 @@ import { Box, Drawer, Button } from "@mui/material/";
 
 import "./productDrawer.css";
 import AccordionMenu from "./Accordion";
-// import InboxIcon from "@mui/icons-material/Inbox";
-// import MailIcon from "@mui/icons-material/Mail";
 
 export default function ProductDrawer() {
   const [state, setState] = React.useState({
@@ -29,8 +27,6 @@ export default function ProductDrawer() {
     <Box
       sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 400 }}
       role="presentation"
-      // onClick={toggleDrawer(anchor, false)}
-      // onKeyDown={toggleDrawer(anchor, false)}
     >
       <AccordionMenu />
     </Box>
@@ -52,6 +48,7 @@ export default function ProductDrawer() {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
+            className="products"
           >
             {list(anchor)}
           </Drawer>

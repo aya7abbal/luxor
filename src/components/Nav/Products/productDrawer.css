@@ -1,48 +1,68 @@
-.body > div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1u2w381-MuiModal-root-MuiDrawer-root > div.MuiBackdrop-root.MuiModal-backdrop.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop{
-    opacity: .4 !important;
+.body
+  > div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1u2w381-MuiModal-root-MuiDrawer-root
+  > div.MuiBackdrop-root.MuiModal-backdrop.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  opacity: 0.4 !important;
 }
 
-.products-btn{
-    color: white !important;
-    align-self: center;
-    margin-top: 9px !important;
-    border-right: 1px solid white !important;
-    border-radius: 0px !important;
-    padding-right:15px !important ;
+.products-btn {
+  color: white !important;
+  align-self: center;
+  margin-top: 9px !important;
+  border-right: 1px solid white !important;
+  border-radius: 0px !important;
+  padding-right: 15px !important ;
 }
 
-@media (max-width:768px) {
-
-    .products-btn{
-        margin-left: 8px !important;
-        border-right: 0px solid white !important;
-
-
-    }
+@media (max-width: 768px) {
+  .products-btn {
+    margin-left: 8px !important;
+    border-right: 0px solid white !important;
+  }
 }
 
-.products-btn:hover{
-    color: var(--babyBlue) !important;
-    text-decoration: underline !important;
+.products-btn:hover {
+  color: var(--babyBlue) !important;
+  text-decoration: underline !important;
 }
-.accordion{
-    color: var(--jet) !important;
+.accordion {
+  color: var(--jet) !important;
 }
-.btn-light{
-    background-color: var(--babyBlue) !important;
+.light-link:hover {
+  color: var(--babyBlue);
+  text-decoration: underline;
+}
+.btn-light {
+  background-color: var(--babyBlue) !important;
+  border: none !important;
+}
+.btn-light:hover {
+  background-color: transparent !important;
+  border: 0px solid white !important;
+}
+.products-acc {
+  display: flex;
+  flex-direction: column;
+}
+.accordion {
+  border: none !important;
+}
+.accordion a {
+  text-decoration: none !important;
+}
+.accordion-summary:hover {
+  background-color: var(--babyBlue) !important;
+}
+.accordion-logo:hover {
+  cursor: pointer !important;
+}
+.accordion-within {
+  border: 0px solid white !important;
+  margin: 0px !important;
+}
+.accordion-details-within {
+  margin: 0px !important;
+}
+strong:hover{
+  color: var(--babyBlue);
 
-}
-.btn-light:hover{
-    background-color: transparent !important;
-    border: 0px solid white !important;
-
-}
-
-.accordion-within{
-    border: 0px solid white !important;
-    margin: 0px !important;
-
-}
-.accordion-details-within{
-    margin: 0px !important;
 }

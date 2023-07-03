@@ -1,6 +1,7 @@
 import "./nav.css";
 // import Highlight from "./Highlight";
 import { React, useState, useEffect } from "react";
+import Highlight from "./Highlight"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../Buttons/buttons.css";
@@ -52,13 +53,13 @@ export default function Navigation() {
 
   return (
     <>
-      {/* <Highlight /> */}
+      <Highlight />
       <MDBNavbar
         expand="md"
         sticky="top"
         className={navbar ? "active" : "navbar"}
         dark
-        style={color?{backgroundColor:"#1c1c29"}:{backgroundColor:"transparent"}}
+        style={color?{backgroundColor:"#1c1c29"}:{backgroundColor:"#1c1c2949"}}
       >
         <MDBContainer fluid>
           <div className="px-2">

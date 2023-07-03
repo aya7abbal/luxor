@@ -42,7 +42,7 @@ export default function Products(props) {
           </MDBDropdownToggle>
           {megaMenuArray.map((element) => (
             <MDBDropdownMenu
-              className="mt-0 justify-content-center megamenu megamenu-open products"
+              className="mt-0 justify-content-center megamenu products"
               style={{
                 borderTopLeftRadius: "10px",
                 borderTopRightRadius: "10px",
@@ -146,11 +146,7 @@ export default function Products(props) {
                     </div>
                   </MDBCol>
 
-                  <MDBCol
-                    xs="12"
-                   
-                    className="mb-1 mb-xl-0 edge-profiles"
-                  >
+                  <MDBCol xs="12" className="mb-1 mb-xl-0 edge-profiles">
                     <div className="pt-2">
                       <p className="text-uppercase font-weight-bold">
                         {element.title4}{" "}
@@ -249,7 +245,6 @@ export default function Products(props) {
 
                   <MDBCol
                     xs="12"
-                    
                     className="my-1 mb-xl-0 d-flex flex-column align-items-center"
                   >
                     <div className="pt-2">
@@ -291,7 +286,6 @@ export default function Products(props) {
                     </MDBRow>
                   </MDBCol>
                 </MDBRow>
-               
               </MDBContainer>
             </MDBDropdownMenu>
           ))}

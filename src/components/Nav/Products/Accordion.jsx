@@ -12,6 +12,7 @@ import IMG4 from "../../../assets/sinks-faucets.jpeg";
 import IMG5 from "../../../assets/egde-profile.jpeg";
 import IMG6 from "../../../assets/egde-profile2.webp";
 import IMG7 from "../../../assets/egde-profile3.webp";
+import Logo from "../../../assets/Logo-light.png";
 
 import { MDBCol, MDBRow, MDBRipple } from "mdb-react-ui-kit";
 
@@ -62,18 +63,29 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-export default function AccordionMenu() {
-  // const [expanded, setExpanded] = React.useState("panel1");
 
-  // const handleChange = (panel) => (event, newExpanded) => {
-  //   setExpanded(newExpanded ? panel : false);
-  // };
+
+
+export default function AccordionMenu() {
+  const [expanded, setExpanded] = React.useState("");
+
+  const handleChange = (panel) => (event, newExpanded) => {
+    setExpanded(newExpanded ? panel : false);
+  };
 
   return (
-    <div>
-      <Accordion className="accordion">
+    <div className="products-acc mt-5">
+      <img
+        src={Logo}
+        height="60"
+        alt=""
+        loading="smooth"
+        className="accordion-logo my-5 m-auto"
+      />
+      {/* Stones */}
+      <Accordion className="accordion"  expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1a-content" id="panel1a-header">
-          <Typography>Stones</Typography>
+          <Typography className="light-link">Stones</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography className="accordion-details">
@@ -84,30 +96,27 @@ export default function AccordionMenu() {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                   >
-                    <Typography>Natural Stones</Typography>
+                    <Typography className="light-link">Natural Stones</Typography>
                   </AccordionSummary>
                   <AccordionDetails className="accordion-details-within">
                     <Typography className="accordion-details">
-                      <MDBRow className="px-1 d-flex justify-content-center">
-                        <MDBCol
-                          xs="12"
-                      
-                          className="mb-3 mb-xl-0 stones"
-                        >
+                      <MDBRow className="px-1 d-flex justify-content-center ">
+                        <MDBCol xs="12" className="mb-3 mb-xl-0 stones">
                           <div className="pt-2">
                             <p className="text-uppercase font-weight-bold">
                               {megaMenuArray.title2}{" "}
                             </p>
+
                             <a href="!#" className="text-dark">
-                              <MDBRow className="mb-4 pb-2">
+                              <MDBRow className="mb-4   pb-2 ">
                                 <MDBCol col="12">
                                   <img
                                     src={IMG1}
-                                    className=" img-fluid shadow-1-strong rounded"
-                                    alt="Hollywood Sign on The Hill"
+                                    className=" img-fluid  shadow-1-strong rounded"
+                                    alt="Palm Springs Road"
                                   />
                                 </MDBCol>
-                                <MDBCol xs="12">
+                                <MDBCol col="12">
                                   <p className="mb-2">
                                     <strong>Marble</strong>
                                   </p>
@@ -117,7 +126,6 @@ export default function AccordionMenu() {
                                   </p>
                                 </MDBCol>
                               </MDBRow>
-                              
                             </a>
                             <a href="!#" className="text-dark">
                               <MDBRow className="mb-4   pb-2">
@@ -186,7 +194,6 @@ export default function AccordionMenu() {
                                 </a>
                               </div>
                             </MDBRow>
-                            
                           </div>
                         </MDBCol>
                       </MDBRow>
@@ -200,16 +207,12 @@ export default function AccordionMenu() {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                   >
-                    <Typography>Man-Made Stones</Typography>
+                    <Typography className="light-link">Man-Made Stones</Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography className="accordion-details">
                       <MDBRow className="px-1 d-flex justify-content-center">
-                        <MDBCol
-                          xs="12"
-                         
-                          className="mb-3 mb-xl-0 stones"
-                        >
+                        <MDBCol xs="12" className="mb-3 mb-xl-0 stones">
                           <div className="pt-2">
                             <p className="text-uppercase font-weight-bold">
                               {megaMenuArray.title2}{" "}
@@ -309,21 +312,18 @@ export default function AccordionMenu() {
                 </Accordion>
               </span>
             </div>
-           
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="accordion">
-        <AccordionSummary aria-controls="panel1a-content" id="panel1a-header">
-          <Typography>Edges & Profiles</Typography>
+
+      {/* Edges and Profiles */}
+      <Accordion className="accordion" expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+        <AccordionSummary aria-controls="panel2a-content" id="panel2a-header">
+          <Typography className="light-link">Edges & Profiles</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <MDBCol
-              xs="12"
-             
-              className="mb-3 mb-xl-0 edge-profiles"
-            >
+            <MDBCol xs="12" className="mb-3 mb-xl-0 edge-profiles">
               <div className="pt-2">
                 <p className="text-uppercase font-weight-bold">
                   {megaMenuArray.title4}{" "}
@@ -389,7 +389,7 @@ export default function AccordionMenu() {
 
                 <a href="!#" className="text-dark">
                   <MDBRow className="mb-4 pb-2">
-                    <MDBCol >
+                    <MDBCol>
                       <img
                         src={IMG7}
                         className=" img-fluid  shadow-1-strong rounded"
@@ -407,26 +407,27 @@ export default function AccordionMenu() {
                   </MDBRow>
                 </a>
                 <MDBRow>
-                              <div className=" buttons d-flex justify-content-center mt-3">
-                                <a href="!#" class="btn btn-2 btn-light">
-                                  View More
-                                </a>
-                              </div>
-                            </MDBRow>
+                  <div className=" buttons d-flex justify-content-center mt-3">
+                    <a href="!#" class="btn btn-2 btn-light">
+                      View More
+                    </a>
+                  </div>
+                </MDBRow>
               </div>
             </MDBCol>
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="accordion">
-        <AccordionSummary aria-controls="panel1a-content" id="panel1a-header">
-          <Typography>Sinks & Faucets</Typography>
+
+      {/* Sinks & Faucets */}
+      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')} className="accordion">
+        <AccordionSummary aria-controls="panel3a-content" id="panel3a-header">
+          <Typography className="light-link">Sinks & Faucets</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <MDBCol
               xs="12"
-              
               className="my-5 mb-xl-0 d-flex flex-column align-items-center"
             >
               <div className="pt-2">
@@ -459,15 +460,14 @@ export default function AccordionMenu() {
                   </p>
                 </a>
               </div>
-             
             </MDBCol>
             <MDBRow>
-                              <div className=" buttons d-flex justify-content-center ">
-                                <a href="!#" class="btn btn-2 btn-light">
-                                  View More
-                                </a>
-                              </div>
-                            </MDBRow>
+              <div className=" buttons d-flex justify-content-center ">
+                <a href="!#" class="btn btn-2 btn-light">
+                  View More
+                </a>
+              </div>
+            </MDBRow>
           </Typography>
         </AccordionDetails>
       </Accordion>

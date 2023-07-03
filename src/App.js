@@ -10,21 +10,22 @@ import Header from "./components/Headers/Header";
 const headersArray = [
   { title: "Popular Stones" },
   { title: "Featured Projects" },
+  { title: "Featured " }
 ];
 
-console.log(headersArray[1].title);
 export default function App() {
   return (
     <>
       <Navigation />
       <Hero />
+      
       <Header title={headersArray[0].title} />
       <FProducts />
       <div className="fprojs">
       <Header title={headersArray[1].title} />
       <FProjects />
       </div>
-      <Header title={headersArray[1].title} />
+      <Header title={headersArray[2].title} />
       <FProjects />
       <Footer />
     </>
