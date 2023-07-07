@@ -1,4 +1,4 @@
-.header:nth-child(odd){
+.header{
     margin: 5rem 0 3rem 0;
     padding-top: 30px;
     text-align: center;
@@ -6,7 +6,7 @@
     font-weight: 600;
     /* background-image: conic-gradient(#9e9dbb, #6c6c99,#2e303d); */
     background-image:conic-gradient(
-        #3b3f5a 0%, #3b3f5a 33%, #6c6c99 33%, #6c6c99 66%, #817fca 66%, var(--babyBlue)
+        #3b3f5a 0%, #3b3f5a 33%, #6c6c99 33%, #6c6c99 66%, var(--babyBlue) 66%, var(--babyBlue)
   );
 
     color: transparent;
@@ -14,7 +14,7 @@
     -webkit-background-clip: text;
 }
 
-.header:nth-child(even){
+.header-light{
     margin: 5rem 0 3rem 0;
     padding-top: 30px;
     text-align: center;

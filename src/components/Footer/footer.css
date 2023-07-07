@@ -3,6 +3,7 @@
   bottom: 1rem;
   right: 3rem;
   z-index: 1000 !important;
+  /* background-color: var(--babyBlue); */
 
 }
 
@@ -13,7 +14,7 @@
     margin: 0;
     padding: 0 !important;
     transform: rotate(-90deg);
-   
+    
 
 
   }

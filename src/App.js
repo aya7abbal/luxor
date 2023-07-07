@@ -6,11 +6,12 @@ import React from "react";
 import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Headers/Header";
+import HeaderLight from "./components/Headers/HeaderLight";
 
 const headersArray = [
   { title: "Popular Stones" },
   { title: "Featured Projects" },
-  { title: "Featured " }
+  { title: "Featured " },
 ];
 
 export default function App() {
@@ -18,14 +19,18 @@ export default function App() {
     <>
       <Navigation />
       <Hero />
-      
+
       <Header title={headersArray[0].title} />
+      
       <FProducts />
       <div className="fprojs">
-      <Header title={headersArray[1].title} />
-      <FProjects />
+        <HeaderLight title={headersArray[1].title} />
+        <FProjects />
       </div>
+
+
       <Header title={headersArray[2].title} />
+
       <FProjects />
       <Footer />
     </>

@@ -7,7 +7,7 @@ import {
   MDBCardBody,
   MDBRow,
   MDBCol,
-  MDBCardOverlay,
+  MDBCardOverlay,MDBRipple
 } from "mdb-react-ui-kit";
 import "./fproducts.css";
 import Marble from "../../../assets/marble-features.jpeg";
@@ -26,7 +26,8 @@ export default function FProducts() {
         <MDBCard>
           <MDBCardImage src={Marble} alt="..." position="top" />
           <MDBCardBody>
-            <MDBCardOverlay className="d-flex-col ">
+            <MDBCardOverlay hover-overlay className="d-flex-col ">
+              <div className="card-text">
               <h2>Marble</h2>
               <p>One of the finest materials that the earth produces.</p>
               <a href="www.google.com">
@@ -36,6 +37,7 @@ export default function FProducts() {
                   className="material-symbols-outlined mx-2"
                 />
               </a>
+              </div>
             </MDBCardOverlay>
           </MDBCardBody>
         </MDBCard>

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+@import url(/Users/aya7abbal/Desktop/Front End/Luxor Stone Group/luxor/src/index.css);
 .buttons * {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
@@ -21,20 +22,21 @@
 
 .buttons a:hover {
   background: white;
-  color: #757d9b;
+  color: #55b0e8 !important;
 }
 
 .buttons .btn {
   color: #fff;
   cursor: pointer;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 2.2rem;
   margin: 0 0 1em;
   max-width: 200px;
   position: relative;
   text-decoration: none;
   width: 100%;
+  z-index: 1000 !important;
 }
 
 @media (min-width: 600px) {
@@ -45,10 +47,12 @@
 
 .buttons .btn:hover {
   text-decoration: none;
+  color: #55b0e8 !important;
 }
 
 .buttons .btn-1 {
-  background: #717998;
+  background: rgba(255, 255, 255, 0.52);
+  color: #55b0e8;
   font-weight: 300;
 }
 
@@ -71,10 +75,11 @@
 }
 
 .buttons .btn-1:hover {
-  background: rgba(117, 125, 155, 0);
-  font-weight: 900;
+  background: #4eade7;
+  font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: white !important;
 }
 
 .buttons .btn-1:hover rect {
