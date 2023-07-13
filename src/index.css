@@ -31,6 +31,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  background-image: url(https://www.pngmart.com/files/13/Elegant-Pattern-PNG-Transparent-Image.png);
+  background-size: 2000px;
 }
 
 code {
@@ -169,6 +171,6 @@ a:active {
 }
 
 .fprojs {
-  background-color: var(--grayNavy2);
+  background-color: var(--grayNavy);
   padding-bottom: 20px;
 }

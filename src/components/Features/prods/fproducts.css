@@ -1,19 +1,55 @@
 .features {
-  margin:  0 auto !important;
+  margin: 0 auto !important;
 }
 
-.features:last-child:nth-child(3n-1){
-  grid-column: span 3
+/* @media (min-width:1025px) {
+  .features{
+    max-height: 80vh !important;
+
+  }
+  
+} */
+
+.features:last-child:nth-child(3n-1) {
+  grid-column: span 3;
 }
 .features .card {
   width: 100%;
-  height: 34rem;
+  height: 30rem;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
   color: white;
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  float: left;
+  opacity: 0;
+  animation: fadeIn 1s ease-in both;
+  margin-top: 30px;
+}
+
+#card-two {                     
+  animation-delay: 1s ;
+}
+#card-three {
+  animation-delay: 2s;
+}
+#card-four{
+  animation-delay: 3s;
+}
+#card-five {
+  animation-delay: 4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .features img {
@@ -24,7 +60,7 @@
   top: 0;
   left: 0;
   opacity: 0.8;
-  transition: opacity 0.2s ease-out;
+  transition: opacity 0.4s ease-out;
 }
 
 .features .card-img-overlay h2 {
@@ -35,9 +71,8 @@
   font-family: "Roboto Condensed", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-
 }
-.card-img-overlay .card-text{
+.card-img-overlay .card-text {
   background-color: rgba(255, 255, 255, 0.219) !important;
   border-radius: 5px;
   padding: 20px;
@@ -71,7 +106,8 @@
   transition: inset 0.3s ease-out;
 }
 
-.features .card-img-overlay:hover p, .features .card-img-overlay:hover a {
+.features .card-img-overlay:hover p,
+.features .card-img-overlay:hover a {
   opacity: 1;
   transition: opacity 0.5s 0.1s ease-in;
 }

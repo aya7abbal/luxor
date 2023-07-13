@@ -10,16 +10,24 @@
   margin:0px !important;
 }
 
+
 nav {
   width: 100% !important;
   margin: 0% !important;
+
+
 }
 
-.navbar:hover {
-  background-color: var(--grayNavy) !important;
-}
-nav a:hover {
-  color: var(--babyBlue) !important;
+
+
+@media (min-width:769px) {
+  .navbar:hover {
+    background-color: var(--grayNavy) !important;
+  }
+  nav a:hover {
+    color: var(--babyBlue) !important;
+  }
+  
 }
 
 .megamenu {
@@ -56,11 +64,16 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  .megamenu,
-  .products {
-    height: 100vh !important;
+  .navbar {
+    background-color: var(--grayNavy) !important;
+  }
+  nav{
+    color: var(--babyBlue) !important;
+  }
+  .highlight {display: none;}
+  .megamenu{
+    height: 100vh!important;
     overflow-y: scroll !important;
-    overscroll-behavior-y: contain !important;
   }
   .megamenu img {
     height: 100% !important;

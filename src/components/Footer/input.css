@@ -1,0 +1,107 @@
+:root {
+  background: #f5f6fa;
+  color: #9c9c9c;
+  font: 1rem "PT Sans", sans-serif;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #55b0e8;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn-newsletter {
+  display: inline-block;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  position: absolute;
+  right: 4%;
+}
+
+.btn-newsletter--primary {
+  background: #55b0e8;
+  color: #fff;
+  -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 12px 30px;
+}
+
+.btn-newsletter--primary:hover {
+  background: #43a8e6;
+}
+
+.btn-newsletter--primary:active {
+  background: #55b0e8;
+  -webkit-box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form__field {
+  width: 100%;
+  background: #fff;
+  color: #a3a3a3;
+  font: inherit;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 22px 36px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .btn-newsletter {
+    position: absolute;
+    right: 0;
+  }
+  .form__field {
+    padding: 22px 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btn-newsletter {
+    position: absolute;
+    right: -14%;
+  }
+  .form__field {
+    padding: 22px 30px;
+  }
+}
+/*# sourceMappingURL=input.css.map */

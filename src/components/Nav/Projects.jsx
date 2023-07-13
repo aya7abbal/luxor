@@ -26,7 +26,7 @@ export default function Projects(props) {
     <>
       {megaMenuArray.map((element) => (
         <MDBDropdownMenu
-          className="mt-0 justify-content-center megamenu"
+          className="mt-0 justify-content-center megamenu d-none d-md-block"
           style={{
             borderTopLeftRadius: "10px",
             borderTopRightRadius: "10px",

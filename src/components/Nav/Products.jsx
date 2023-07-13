@@ -42,7 +42,7 @@ export default function Products(props) {
           </MDBDropdownToggle>
           {megaMenuArray.map((element) => (
             <MDBDropdownMenu
-              className="mt-0 justify-content-center megamenu products"
+              className="mt-0 justify-content-center megamenu  d-none d-md-block"
               style={{
                 borderTopLeftRadius: "10px",
                 borderTopRightRadius: "10px",

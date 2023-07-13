@@ -23,7 +23,7 @@ export default function MegaMenu(props) {
     <>
       {navTitles.map((element) => (
         <MDBNavbarItem className="position-static">
-          <MDBDropdown>
+          <MDBDropdown className="">
             <MDBDropdownToggle tag="a" className="nav-link" onClick={props.toggleColor} >
               {element.title}
             </MDBDropdownToggle>

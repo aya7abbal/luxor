@@ -7,6 +7,7 @@ import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Headers/Header";
 import HeaderLight from "./components/Headers/HeaderLight";
+import Navbar from "./components/Nav/Main Nav/Navbar";
 
 const headersArray = [
   { title: "Popular Stones" },
@@ -19,6 +20,7 @@ export default function App() {
     <>
       <Navigation />
       <Hero />
+      {/* <Navbar/> */}
 
       <Header title={headersArray[0].title} />
       

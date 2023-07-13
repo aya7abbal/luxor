@@ -21,35 +21,19 @@ import {
 export default function Navigation() {
   const [showBasic, setShowBasic] = useState(false);
 
-  //navbar scroll when active state
-  const [navbar, setNavbar] = useState(false);
 
-  const changeBackground = () => {
-    console.log(window.scrollY);
-    if (window.scrollY >= 66) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
-  useEffect(() => {
-    changeBackground();
-    // adding the event when scroll change Logo
-    window.addEventListener("scroll", changeBackground);
-  });
 
   const [color, setColor] = useState(false);
-
-  function toggleColor() {
-    setColor(!color);
+  function toggleColor(){
+    setColor(!color)
   }
-  console.log(color)
 
-  // const scroll = ()=>{
-  //   (color === true)?(document.body.style.scrollY="hidden"):(document.body.style.scrollY="auto")
-
-  // }
+    // useEffect(() => {
+    // window.addEventListener("click" , ()=>{showBasic? setColor(true):setColor(false) }) 
+        // adding the event when scroll change Logo
+      
+    // })
+    
 
   return (
     <>
@@ -57,8 +41,9 @@ export default function Navigation() {
       <MDBNavbar
         expand="md"
         sticky="top"
-        className={navbar ? "active" : "navbar"}
+        // className={navbar ? "active" : "navbar"}
         dark
+      // onClick={toggleColor()}
         style={color?{backgroundColor:"#1c1c29"}:{backgroundColor:"#1c1c2949"}}
       >
         <MDBContainer fluid>
@@ -67,8 +52,8 @@ export default function Navigation() {
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
-              onClick={() => setShowBasic(!showBasic)}
-              className="mx-1"
+              onMouseEnter={() => setShowBasic(!showBasic)}
+                          className="mx-1"
             >
               <FontAwesomeIcon icon={faBars} />{" "}
             </MDBNavbarToggler>

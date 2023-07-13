@@ -1,0 +1,4 @@
+.MuiDrawer-paperAnchorTop{
+    position: fixed;
+    top: 60px !important;
+}
