@@ -55,7 +55,7 @@ export default function Footer() {
           <MDBCol>
             <ul className="col-footer">
               <h3 className="col-footer-title my-3">Links</h3>
-              <li className="mb-3"> Prodicts</li>
+              <li className="mb-3"> Products</li>
               <li className="mb-3">Projects</li>
               <li>About Us</li>
             </ul>
