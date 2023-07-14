@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luxor/static/css/main.25edfefb.css",
-    "main.js": "/luxor/static/js/main.6abe5c3d.js",
+    "main.js": "/luxor/static/js/main.a31facec.js",
     "static/js/787.bbbc8190.chunk.js": "/luxor/static/js/787.bbbc8190.chunk.js",
     "static/media/Logo-light.png": "/luxor/static/media/Logo-light.64808c53e4db08f000bc.png",
     "static/media/Logo.png": "/luxor/static/media/Logo.0c3280f11184cc7a8eba.png",
@@ -28,11 +28,11 @@
     "static/media/egde-profile.jpeg": "/luxor/static/media/egde-profile.ee16bfc5d833a45276d7.jpeg",
     "index.html": "/luxor/index.html",
     "main.25edfefb.css.map": "/luxor/static/css/main.25edfefb.css.map",
-    "main.6abe5c3d.js.map": "/luxor/static/js/main.6abe5c3d.js.map",
+    "main.a31facec.js.map": "/luxor/static/js/main.a31facec.js.map",
     "787.bbbc8190.chunk.js.map": "/luxor/static/js/787.bbbc8190.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25edfefb.css",
-    "static/js/main.6abe5c3d.js"
+    "static/js/main.a31facec.js"
   ]
 }
