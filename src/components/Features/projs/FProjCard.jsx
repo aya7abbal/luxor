@@ -34,6 +34,21 @@ const cardArray = [
     img: IMG3,
     text: "  Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
   },
+  {
+    title: "Project 5",
+    img: IMG3,
+    text: "  Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+  },
+  {
+    title: "Project 6",
+    img: IMG3,
+    text: "  Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+  },
+  {
+    title: "Project 7",
+    img: IMG3,
+    text: "  Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+  },
 ];
 export default function FProjCard() {
   return (
@@ -56,11 +71,11 @@ export default function FProjCard() {
                 </Typography>
               </CardContent>
             </CardActionArea>
-            <CardActions>
+            {/* <CardActions>
               <Button size="small" color="primary">
                 Share
               </Button>
-            </CardActions>
+            </CardActions> */}
           </Card>
         ))}
       {/* </SwiperSlide> */}

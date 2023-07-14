@@ -41,11 +41,27 @@ export default function FProjects() {
       img: IMG3,
       text: "  Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
     },
+    {
+      title: "Project 5",
+      img: IMG1,
+      text: "  Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+    },
+    {
+      title: "Project 6",
+      img: IMG2,
+      text: "  Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+    },
+    {
+      title: "Project 7",
+      img: IMG3,
+      text: "  Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+    },
   ];
 
   return (
     <>
       <Swiper
+      
         breakpoints={{
           "@0.00": {
             slidesPerView: 1,
@@ -78,6 +94,13 @@ export default function FProjects() {
         }}
         modules={[Autoplay, Pagination, Navigation, Grid]}
         className="mySwiper"
+         style={{
+  "--swiper-pagination-color": "#55b0e8",
+  "--swiper-pagination-bullet-inactive-color": "white",
+  "--swiper-pagination-bullet-inactive-opacity": "1",
+  "--swiper-pagination-bullet-size": "10px",
+  "--swiper-pagination-bullet-horizontal-gap": "6px"
+}}>
       >
         {cardArray.map((element) => (
           <SwiperSlide>
@@ -97,7 +120,7 @@ export default function FProjects() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
+              {/* <CardActions>
               <Button size="small" color="primary">
                   View
                 </Button>
@@ -105,7 +128,7 @@ export default function FProjects() {
                   Share
                 </Button>
                 
-              </CardActions>
+              </CardActions> */}
             </Card>
           </SwiperSlide>
         ))}

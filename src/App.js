@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Headers/Header";
 import HeaderLight from "./components/Headers/HeaderLight";
 import Navbar from "./components/Nav/Main Nav/Navbar";
-
+import HeroCarousel from "./components/Hero/HeroCarousel"; 
 const headersArray = [
   { title: "Popular Stones" },
   { title: "Featured Projects" },
@@ -32,8 +32,7 @@ export default function App() {
 
 
       <Header title={headersArray[2].title} />
-
-      <FProjects />
+<HeroCarousel/>
       <Footer />
     </>
   );
